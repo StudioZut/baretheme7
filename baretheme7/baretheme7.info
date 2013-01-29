@@ -1,0 +1,27 @@
+name = BareTheme7
+description = Base minimal theme (responsive) by Christian Aldridge (and thanks to Mitchell Shelton)
+version = 1.0
+core = 7.x
+engine = phptemplate
+
+regions[header] = Header
+regions[navbar] = Navigation
+regions[sidebar] = Sidebar
+regions[content_top] = Top Content
+regions[content] = Main Content
+regions[content_bottom] = Bottom Content
+regions[footer] = Footer
+
+features[] = logo
+features[] = name
+features[] = favicon
+
+stylesheets[all][] = css/reset.css
+stylesheets[all][] = css/custom-drupal.css
+stylesheets[all][] = css/node.css
+stylesheets[all][] = css/front.css
+stylesheets[all][] = css/style.css
+stylesheets[all][] = css/mobile.css
+scripts[] = js/script.js
+
+screenshot = screenshot.png
