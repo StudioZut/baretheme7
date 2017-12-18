@@ -4,6 +4,14 @@
  * @file
  * Default theme implementation to display a node.
  *
+ * Theme hook suggestions are made based on these factors, listed from the most
+ * specific template to the least. Drupal will use the most specific template 
+ * it finds:
+ *
+ * node--nodeid.tpl.php
+ * node--type.tpl.php
+ * node.tpl.php
+ *
  * Available variables:
  * - $title: the (sanitized) title of the node.
  * - $content: An array of node items. Use render($content) to print them all,
