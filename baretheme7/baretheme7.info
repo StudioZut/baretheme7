@@ -1,5 +1,5 @@
 name = BareTheme7
-description = Base minimal theme (responsive) by Christian Aldridge (and thanks to Mitchell Shelton)
+description = Base minimal theme (responsive) by Christian Aldridge (based on a bare theme by Mitchell Shelton)
 version = 1.0
 core = 7.x
 engine = phptemplate
