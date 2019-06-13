@@ -67,8 +67,3 @@
     <div class="clear"></div>
   </div>
 </div>
-
-<div class="clear"></div>
-<div id="copyright" class="center-content">
-  Copyright &copy; <?php print date('Y'); ?> My company name<span class="mobile-hide">, with my long slogan that doesn't need to be on my mobile version.</span>
-</div>
